@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 1000;
+  font-size: large;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  /* position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; */
+  background: linear-gradient(to top left, #9ba4fc, #4753f8);
+}
+.form-group {
+  color: black;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.element {
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 0.22),
+    rgba(255, 255, 255, 0.25)
+  );
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+.normalBMI {
+  padding: 10px;
+  border: 2px solid #d3d3d3;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.answer {
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: rgb(248, 19, 19);
+}
+.btn.btn-primary:hover {
+  background-color: rgb(22, 45, 245);
+}
+.colorYellow {
+  color: yellow;
+}
+.colorGreen {
+  color: greenyellow;
+}
+.colorRed {
+  color: rgb(248, 19, 19);
+}
+.resetButton {
+  color: rgb(26, 20, 20);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.yourBMI {
+  color: black;
+  margin-left: 10px;
+  width: 300px;
+}
+.infot {
+  color: rgb(68, 68, 68);
+}
+@media (min-width: 600px) {
+  body {
+    grid-template-columns: 200px 200px;
+  }
+}

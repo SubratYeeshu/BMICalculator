@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <title>BMICalculator</title>
+  </head>
+  <body>
+    <div class="resetButton">
+      <button class="btn btn-active testagain">Test Again</button>
+    </div>
+   
+    <div class="element">
+      <div class="aligntocenter">
+        <div class="form-group">
+            <label for="heightEnter">Enter Height</label>
+            <input type="number" class="heightClass form-control" placeholder="180" />
+            <small class="infot">Enter height in cm</small>
+        </div>
+        <div class="form-group">
+            <label for="weightEnter">Enter Weight</label>
+            <input type="number" class="weightClass form-control" placeholder="70" />
+            <small class="infot">Enter weight in kg</small>
+        </div>
+      <div>
+        <button class="btn btn-primary calculate">Calculate</button>
+      </div>
+      <div class="answer">
+          <p class="result">Your BMI is: </p>
+      </div>
+      <div class="normalBMI">
+        <p>
+          Below 18.5 – > Underweight <br>
+          Between 18.5 – > 24.9	Normal or Healthy Weight <br>
+          25+ – > Overweight
+        </p>
+      </div>
+     
+        <div class="yourBMI">
+          <p class="colors">
+            <img src="./assets/neutral.png" class="neutral" alt="">
+            <img src="./assets/sad.png" class="sad" alt="">
+            <img src="./assets/smile.png" class="smile" alt="">
+          </p>
+        </div>
+      </div>
+   
+      
+    <script src="./script.js"></script>
+  </body>
+</html>
